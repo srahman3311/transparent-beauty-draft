@@ -100,12 +100,12 @@ function App() {
         skinType = {skinType}
         updateSkinType = {updateSkinType}
       /> */}
-      <OtherConcerns
+      {/* <OtherConcerns
         otherConcerns = {otherConcerns}
         updateOtherConcerns = {updateOtherConcerns} 
-      />
+      /> */}
       {/* <Registration /> */}
-      {/* <Profile /> */}
+      <Profile />
     </div>
   );
 }

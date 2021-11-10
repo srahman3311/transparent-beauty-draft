@@ -24,8 +24,14 @@ body {
 }
 
 .abcdef {
-    background-color: #986d8e02;
+    background-color: #986d8ea6;
     color: #fde59c0e;
     color: rgba(255, 0, 0, 0.527);
+}
+
+@media(max-width: 600px) {
+    .container {
+        display: block;
+    }
 }
 

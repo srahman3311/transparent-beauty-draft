@@ -4,6 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 const useStyles = makeStyles({
     imageContainer: {
         width: "100%",
+        minHeight: "20%",
         // height: "150px",
         // margin: "0 auto 60px auto",
         marginBottom: "40px",
@@ -13,11 +14,13 @@ const useStyles = makeStyles({
         alignItems: "center",
         "@media(max-width: 600px)": {
             width: "100%",
+            height: "20%",
             display: "flex",
             flexDirection: "row",
             justifyContent: "center",
             alignItems: 'center',
             marginBottom: "0",
+            marginTop: "0",
         }
     },
     userImage: {
